@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
     }
   };
 
-  const countLetters = function(letters, numOfLetters){
+  const countLetters = function(letters){
     let results = {};
 
     for(const item of letters){
