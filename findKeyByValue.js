@@ -6,13 +6,8 @@ const assertEqual = function(actual, expected) {
     }
   };
 
-  function findKeyByValue (show, genre){
-    const bestTVShowsByGenre = { 
-      sci_fi: "The Expanse",
-      comedy: "Brooklyn Nine-Nine",
-      drama:  "The Wire"
-    }
-    if(genre === 2 )
+  function findKeyByValue (object, value){
+    return Object.keys(object).find(key => object[key] === value);
 
   }
 
