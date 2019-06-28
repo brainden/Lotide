@@ -40,4 +40,4 @@ const results1 = map(words, word => word[0]);
 console.log(results1);
 
 
-console.log(assertArraysEqual(map, eqArrays));
+console.log(assertArraysEqual(eqArrays, map));

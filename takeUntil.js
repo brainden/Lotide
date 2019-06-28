@@ -6,6 +6,8 @@ const takeUntil = function(array, callback) {
     for (let i = 0; i < array.length; i++) {
         if (callback(array[i], i, array)) {
             result.push(array[i]);
+        } else {
+            break;
         }
     }
     return result;
@@ -13,4 +15,5 @@ const takeUntil = function(array, callback) {
 
 
 
-console.log(takeUntil(testData, (a,b,c) => {return (a*b) < c.length}));
+console.log(takeUntil(testData, (num) =>  {return num >= 0}));
+
