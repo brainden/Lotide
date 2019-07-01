@@ -10,13 +10,15 @@ const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
 const letterPositions = require('./letterPositions');
 const map = require('./map');
-
-
+const assertEqual = require('./assertEqual')
+const assertArraysEqual = require('/assertArraysEqual')
+const without = require('/without')
+const takeUntil = require('/takeUntil')
 
 module.exports = {
- head,
- tail,
- middle,
+head,
+tail,
+middle,
 countLetters,
 countOnly,
 eqArrays,
@@ -24,8 +26,9 @@ findKey,
 findKeyByValue,
 flatten,
 letterPositions,
-map,
-
-
+map, assertArraysEqual,
+assertEqual,
+without,
+takeUntil
 
 };
