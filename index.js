@@ -14,17 +14,17 @@ const map = require('./map');
 
 
 module.exports = {
-head:   head,
-tail:   tail,
-middle: middle,
-countLetters: countLetters,
-countOnly: countOnly,
-eqArrays: eqArrays,
-findKey: findKey,
-findKeyByValue: findKeyByValue,
-flatten: flatten,
-letterPositions: letterPositions,
-map: map,
+ head,
+ tail,
+ middle,
+countLetters,
+countOnly,
+eqArrays,
+findKey,
+findKeyByValue,
+flatten,
+letterPositions,
+map,
 
 
 
