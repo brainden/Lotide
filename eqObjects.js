@@ -1,19 +1,19 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅Assertion Passed: ${actual} === ${expected}`);
-  } else if (actual !== expected) {
-    console.log(`🔴🔴🔴Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+// const assertEqual = function(actual, expected) {
+//   if (actual === expected) {
+//     console.log(`✅✅✅Assertion Passed: ${actual} === ${expected}`);
+//   } else if (actual !== expected) {
+//     console.log(`🔴🔴🔴Assertion Failed: ${actual} !== ${expected}`);
+//   }
+// };
 
- function eqArrays(arr1,arr2){
-      for (let i = 0 ; i < arr1.length; i++){
+//  function eqArrays(arr1,arr2){
+//       for (let i = 0 ; i < arr1.length; i++){
           
-              if(Array.isArray(arr1[i]) !== Array.isArray(arr2[i])){
-                  return false;
-              }
-            } return true;
-          }
+//               if(Array.isArray(arr1[i]) !== Array.isArray(arr2[i])){
+//                   return false;
+//               }
+//             } return true;
+//           }
   
 
 
@@ -34,11 +34,14 @@ const eqObjects = function(object1, object2) {
 
 };
 
-const ab = {a :'1' , b: '1'};
+// const ab = {a :'1' , b: '1'};
 
-const ba = {a:'1' , b: '1'};
+// const ba = {a:'1' , b: '1'};
 
-const abc = {a : '1' , b: '2', c: '3'};
-const cba = {a :['1'] ,b: ['2', '2.4'], c: '3'};
+// const abc = {a : '1' , b: '2', c: '3'};
+// const cba = {a :['1'] ,b: ['2', '2.4'], c: '3'};
 
-console.log(eqArrays(ab, ba));
+// console.log(eqArrays(ab, ba));
+
+
+module.exports = eqObjects;

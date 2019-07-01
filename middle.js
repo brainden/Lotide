@@ -17,11 +17,11 @@ function middle(arr1){
         let middleInd = Math.round(arr1.length / 2);
     
         newArr.push(arr1[middleInd-1]);
-        console.log(newArr);
+        return newArr;
     }
 }
 
 
-console.log(middle([1,2,4,7,5,6,7,8,8]));
+// console.log(middle([1,2,4,7,5,6,7,8,8]));
 
 module.exports = middle;
