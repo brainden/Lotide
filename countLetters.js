@@ -6,24 +6,16 @@ const assertEqual = function(actual, expected) {
     }
   };
 
-  const countLetters = function(letters){
-    let results = {};
-
-    for(const item of letters){
-       
-        var keys = Object.keys(results);
-       
-        if (keys.includes(item)) {
-            results[item] += 1;
-        }else {
-            results[item] = 1;
-        }
-     
+const countLetters = function(words){
+  results = {};
+  for(let i of words){
+    if(!results[i]){
+      results[i] = 1;
+    } else{
+      results[i] += 1
     }
-    console.log(results);
+  }console.log(results);
 }
 
- countLetters("hello", undefined);
 
-
-  
+  console.log(countLetters("hello!"))
