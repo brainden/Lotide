@@ -9,7 +9,3 @@ assertEqual("Hello", "labs");
 
 
 
-
-
-
-module.exports = assertEqual;  

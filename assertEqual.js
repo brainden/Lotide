@@ -10,20 +10,6 @@ const assertEqual = function(actual, expected) {
 
 
 
-
-
-
-
-
-assertEqual(5, 5);
-assertEqual("Hello", "labs");
-
-
-
-
-
-
-
 //DO NOT CHANGE BELOW;
 
 module.exports = assertEqual;
