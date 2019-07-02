@@ -1,9 +1,8 @@
-const assertEqual = require('./assertEqual'); 
-
+const assertEqual = require('./assertEqual');
 
 const tail = function(arr) {
-  if(arr.length <= 1){
-  return [];
+  if (arr.length <= 1) {
+    return [];
 
   } else {
     return arr.slice(1);
@@ -13,5 +12,4 @@ const tail = function(arr) {
 
 
 
-
-module.exports = tail; 
+module.exports = tail;

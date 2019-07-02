@@ -3,22 +3,20 @@ const eqArrays = require('./eqArrays');
 
 
 
-function middle(arr1){
-    if(arr1.length <= 2){
-        return [];
-    }
-   
-    else if(arr1.length % 2 === 0 ){
+function middle(arr1) {
+  if (arr1.length <= 2) {
+    return [];
+  } else if (arr1.length % 2 === 0) {
         
-      return arr1.slice(arr1.length/2-1, arr1.length/2+1)
+    return arr1.slice(arr1.length / 2 - 1, arr1.length / 2 + 1);
 
-    } else {
-        let newArr = [];
-        let middleInd = Math.round(arr1.length / 2);
+  } else {
+    let newArr = [];
+    let middleInd = Math.round(arr1.length / 2);
     
-        newArr.push(arr1[middleInd-1]);
-        return newArr;
-    }
+    newArr.push(arr1[middleInd - 1]);
+    return newArr;
+  }
 }
 
 

@@ -1,5 +1,5 @@
 
-//const testData = [1, 2, 5, 7, 2, -1, 2, 4, 5];
+const testData = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 
 const takeUntil = function(array, callback) {
     const result = [];
@@ -15,5 +15,5 @@ const takeUntil = function(array, callback) {
 
 
 
-//console.log(takeUntil(testData, (num) =>  {return num >= 0}));
+console.log(takeUntil(testData, (num) =>  {return num <= 2}));
 module.exports = takeUntil;

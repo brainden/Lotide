@@ -1,7 +1,7 @@
 const assertEqual = require('./assertEqual');
 
-function head(numbers){
-    return numbers[0];
-} 
+const head = function(numbers) {
+  return numbers[0];
+};
 
 module.exports = head;
